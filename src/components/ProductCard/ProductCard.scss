@@ -1,0 +1,33 @@
+
+.product-card {
+    width: 15%;
+    height: 27rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 1rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+        display: flex;
+        flex-grow: 1; 
+        margin-bottom: 0.5rem; 
+    }
+
+    &__info {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        flex-grow: 0;
+        justify-content: flex-start;
+        
+    }
+
+    &__button {
+        position: absolute;
+        bottom: 1rem;
+        transform: translateX(-50%);
+    }
+}
