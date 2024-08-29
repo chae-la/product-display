@@ -1,0 +1,18 @@
+.basket-item{
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 20rem;
+    justify-content: space-around;
+    &__image{
+        height: 4rem;
+
+    }
+    &__info{
+        font-size: 1rem;
+        &--title{
+            width: 10rem;
+            overflow: hidden;
+            text-overflow: ellipsis ;
+        }
+    }
+}
