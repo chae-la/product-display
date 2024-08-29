@@ -15,7 +15,7 @@ return (
     <div className="product-card">
         <img src={image} className="product-card__image"/>
         <h3 className="product-card__info">{title}, {sku}</h3>
-        <h3 className="product-card__info">£{price}</h3>
+        <h3 className="product-card__info product-card__info--price">£{price}</h3>
         <div className="product-card_button">
         <Button label="Add To Basket" variant={"primary"} />
         </div>

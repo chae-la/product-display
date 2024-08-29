@@ -1,9 +1,28 @@
-.product-list {
-    padding: 2rem;
+.product-list{
     display: flex;
-    width: 100%;
-    justify-content: flex-start; 
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: calc(100%/20)
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .product-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .product-list {
+        padding: 1.5rem;
+        display: flex;
+        width: 100%;
+        justify-content: flex-start; 
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+    }
+
 }
