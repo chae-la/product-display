@@ -1,0 +1,9 @@
+.search-box{
+    padding: 2rem;
+    &__input{
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 1rem;
+        width: 80%;
+    }
+}

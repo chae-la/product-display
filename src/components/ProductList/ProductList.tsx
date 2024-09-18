@@ -1,6 +1,6 @@
 import "./ProductList.scss";
 import ProductCard from "../ProductCard/ProductCard";
-import products from "../../data/products.json";
+import products from "../../data/products";
 
 const ProductList = () => {
   return (

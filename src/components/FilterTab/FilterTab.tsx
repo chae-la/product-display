@@ -1,0 +1,2 @@
+import "./FilterTab.scss"
+
