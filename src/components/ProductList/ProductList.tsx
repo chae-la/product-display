@@ -1,8 +1,12 @@
 import "./ProductList.scss";
 import ProductCard from "../ProductCard/ProductCard";
-import products from "../../data/products";
+import Product from "../../types/Product";
 
-const ProductList = () => {
+type ProductListProps = {
+  products : Product[]
+}
+
+const ProductList = ({products} : ProductListProps) => {
   return (
     <div className="product-list">
       {products.map((product) => (

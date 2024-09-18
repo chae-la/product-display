@@ -1,11 +1,12 @@
 .product-info{
-    padding: 2rem;
+    padding: 1rem;
     &__image{
         min-height: 500px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        filter: blur(4px);
     }
     &__container{
         height: fit-content;
@@ -13,6 +14,7 @@
         font-size: 1.5rem;
         &--heading{
             margin-top: 0;
+            
         }
     }
 }
