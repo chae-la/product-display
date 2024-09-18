@@ -3,6 +3,7 @@ import Product from "../../types/Product";
 import "./FilterSearch.scss";
 import SearchBox from "../../components/SearchBox/SearchBox";
 import ProductList from "../../components/ProductList/ProductList";
+import FilterTab from "../../components/FilterTab/FilterTab";
 
 type FilterSearchProps = {
   products: Product[];
@@ -27,6 +28,7 @@ const FilterSearch = ({ products }: FilterSearchProps) => {
   return (
     <div className="filter-search">
       <SearchBox name="Products" searchTerm={searchTerm} handleInput={handleInput} />
+      
       <ProductList products={filteredProducts} />
     </div>
   );

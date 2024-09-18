@@ -1,0 +1,24 @@
+.filter-tab {
+  padding: 0 2rem 2rem 2rem;
+  &__image {
+    width: 2.5rem;
+  }
+}
+
+.filter-options {
+  &__brand {
+    max-height: 19.5rem;
+    overflow-y: auto;
+    margin-top: 2rem;
+    &--heading {
+      position: sticky;
+      margin-top: unset;
+      top: 0;
+      z-index: 2;
+      background-color: #ffff;
+    }
+  }
+  &__product-type--heading {
+    background-color: #ffff;
+  }
+}

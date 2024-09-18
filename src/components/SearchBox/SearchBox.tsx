@@ -1,5 +1,6 @@
 import { FormEventHandler } from "react";
 import "./SearchBox.scss"
+import FilterTab from "../FilterTab/FilterTab";
 
 type SearchBoxProps = {
     name: string;
@@ -9,6 +10,8 @@ type SearchBoxProps = {
 
 const SearchBox = ( { name, searchTerm, handleInput} : SearchBoxProps) => {
     return (
+        <>
+        
         <div className="search-box" >
             <input placeholder="Search..."
             type="text"
@@ -18,7 +21,9 @@ const SearchBox = ( { name, searchTerm, handleInput} : SearchBoxProps) => {
             onInput={handleInput}
             className="search-box__input"/>
         </div>
-    )
+       
+        </>
+)
 }
 
 export default SearchBox;
