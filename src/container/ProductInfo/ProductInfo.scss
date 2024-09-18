@@ -1,0 +1,18 @@
+.product-info{
+    padding: 2rem;
+    &__image{
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__container{
+        height: fit-content;
+        background-color: azure;
+        font-size: 1.5rem;
+        &--heading{
+            margin-top: 0;
+        }
+    }
+}
