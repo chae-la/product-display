@@ -1,28 +1,26 @@
 import Button from "../Button/Button";
-import "./ProductCard.scss"
+import "./ProductCard.scss";
 
 type ProductCardProps = {
     image: string;
-    title: string;
-    sku: string;
-    price: number;
+    product: string;
+    brand: string;
+    score: number;
+};
 
-}
-
-const ProductCard = ({image, title,sku,price} : ProductCardProps) => {
-return (
-
-    <div className="product-card">
-        <img src={image} className="product-card__image"/>
-        <h3 className="product-card__info">{title}, {sku}</h3>
-        <h3 className="product-card__info product-card__info--price">£{price}</h3>
+const ProductCard = ({ image, product, brand, score }: ProductCardProps) => {
+  return (
+    <div className="product-card-container"> 
+      <div className="product-card">
+        <img src={image} alt={product} className="product-card__image" />
+        <h4 className="product-card__info">{product} - {brand}</h4>
+        <h4 className="product-card__info product-card__info--rating">Rating: {score}/10</h4>
         <div className="product-card_button">
-        <Button label="Add To Basket" variant={"primary"} />
+          <Button label="More..." variant="primary" />
         </div>
+      </div>
     </div>
-
-)
-
-}
+  );
+};
 
 export default ProductCard;

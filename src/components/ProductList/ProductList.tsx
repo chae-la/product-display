@@ -6,12 +6,12 @@ const ProductList = () => {
   return (
     <div className="product-list">
       {products.map((product) => (
-        <ProductCard 
-          key={product.sku} 
-          image={product.image} 
-          title={product.title} 
-          sku={product.sku} 
-          price={product.price} 
+        <ProductCard
+          key={product.productId}
+          product={product.productName}
+          brand={product.brand}
+          score={product.rating}
+          image={product.image}
         />
       ))}
     </div>
