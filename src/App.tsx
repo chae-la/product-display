@@ -1,5 +1,5 @@
 import "./App.scss";
-import Home from "./components/Home/Home";
+import Home from "./container/Home/Home";
 // import Nav from "./components/Nav/Nav";
 import { Route, Routes } from "react-router-dom";
 import ProductInfo from "./container/ProductInfo/ProductInfo";
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home products={[]} />} />
         <Route path="/skincare" element={<FilterSearch products={products} />} />
         <Route
           path="/products/:productId"
