@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Carousel from "../../components/Carousel/Carousel";
 import products from "../../data/products";
 import "./Home.scss"
@@ -23,7 +24,7 @@ const Home = () => {
       <div className="home__current-routine">
         <h3 className="home__current-routine home__current-routine--heading">Current Routine</h3>
         {selectedImages.length > 0 ? (
-          <Carousel images={selectedImages} />
+              <Carousel images={selectedImages} productIds={selectedProductIds} />
         ) : (
           <p>No images available</p>
         )}
