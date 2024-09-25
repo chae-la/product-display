@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home products={[]} />} />
+        <Route path="/" element={<Home />} />
         <Route path="/skincare" element={<FilterSearch products={products} />} />
         <Route
           path="/products/:productId"

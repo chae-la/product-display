@@ -8,13 +8,23 @@
         background-size: cover;
         filter: blur(4px);
     }
+    &__back{
+        position: sticky;
+        top: 1rem;
+        z-index: 1;
+    }
     &__container{
         height: fit-content;
-        background-color: azure;
+        background-color: rgb(217, 241, 230);
         font-size: 1.5rem;
+        padding: 0.75rem;
         &--heading{
             margin-top: 0;
             
+        }
+        &--review{
+            font-size: 1rem;
+            line-height: 1.5rem;
         }
     }
 }

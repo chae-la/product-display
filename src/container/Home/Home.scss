@@ -1,0 +1,9 @@
+.home{
+    padding: 1rem;
+    &__current-routine{
+        &--heading{
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
+}
