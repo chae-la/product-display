@@ -20,7 +20,7 @@ const ProductCard = ({ image, product, brand, score, description }: ProductCardP
   }
 
   const frontContent = (
-    <div onClick={handleClick}>
+    <div onClick={handleClick} className="product-card__button">
       <Button label="More" variant="primary" />
     </div>
   );
@@ -29,7 +29,7 @@ const ProductCard = ({ image, product, brand, score, description }: ProductCardP
     <>
       <img
         src={whiteCross}
-        className="artist-tile__cross"
+        className="product-card__cross"
         onClick={handleClick}
         alt="Close text"
       />
@@ -44,16 +44,6 @@ const ProductCard = ({ image, product, brand, score, description }: ProductCardP
   if(showBack) contentClassName += " product-card__content--back"
 
   return (
-    // <div className="product-card-container"> 
-    //   <div className="product-card">
-    //     <img src={image} alt={product} className="product-card__image" />
-    //     <h4 className="product-card__info">{product} - {brand}</h4>
-    //     <h4 className="product-card__info product-card__info--rating">Rating: {score}/10</h4>
-    //     <div className="product-card_button">
-    //       {showBack ? backContent  : frontContent}
-    //     </div>
-    //   </div>
-    // </div>
     <div className="product-card">
       <img src={image} alt={product} className="product-card__image"/>
       <div className={contentClassName}>
