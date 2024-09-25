@@ -1,28 +1,6 @@
 .nav{
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-    &__buttons{
-        text-decoration: none;
-        font-weight: 500;
-        font-size:1.5rem;
-        color: black;
-        justify-content: flex-start;
-    }
-    &__image{
+    padding:2rem 0 0 2rem;
+    &__menu{
         height: 2rem;
-        width: auto;
-        fill: #F06C00;  
-        position: relative; 
-        display: flex; 
-        justify-content: flex-end;
-    }
-    &__number{
-        background-color: red;
-        border-radius: 50%;
-        width: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }

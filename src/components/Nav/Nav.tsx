@@ -1,20 +1,23 @@
-import { Link } from "react-router-dom";
-import "./Nav.scss"
-import Button from "../Button/Button";
 
+
+import { useState } from "react";
+import "./Nav.scss";
+import menu from "../../assets/images/menu.webp"
+import NavMenu from "../NavMenu/NavMenu";
 
 const Nav = () => {
-return (
-    <div className="nav">
-    <nav className="nav__buttons">
-    <Link to="/" className="nav__buttons">Home</Link>
-    <Link to ="/store" className="nav__buttons">Store</Link>
-</nav>
-    <img src="https://www.svgrepo.com/show/4139/shopping-basket.svg" className="nav__image"/>
-    <div className="nav__number">3</div>
-    </div>
+  const [showNav, setShowNav] = useState<boolean>(false);
 
-)
-}
+  const toggleNav = () => {
+    setShowNav(!showNav);
+  };
+
+  return(
+    <div className="nav">
+        {showNav && <NavMenu onClose={toggleNav} />}
+        <img src={menu} className="nav__menu" alt="Menu Icon" onClick={toggleNav}/>
+    </div>
+  )
+};
 
 export default Nav;
