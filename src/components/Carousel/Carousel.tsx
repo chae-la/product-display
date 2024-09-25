@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link } from "react-router-dom"; 
 import "./Carousel.scss";
 import rightArrow from "../../assets/images/right-arrow.png";
 import leftArrow from "../../assets/images/left-arrow.png";
 
 type CarouselProps = {
   images: string[];
-  productIds: number[]; // New prop for product IDs
+  productIds: number[]; 
 };
 
 const Carousel = ({ images, productIds }: CarouselProps) => {

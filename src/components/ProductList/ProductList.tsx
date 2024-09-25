@@ -17,6 +17,7 @@ const ProductList = ({ products }: ProductListProps) => {
           score={product.rating}
           image={product.image}
           description={product.description}
+          productId={product.productId}
         />
       ))}
     </div>
