@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/store" element={<FilterSearch products={products} />} />
+        <Route path="/skincare" element={<FilterSearch products={products} />} />
         <Route
           path="/products/:productId"
           element={<ProductInfo products={products} />}

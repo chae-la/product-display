@@ -3,10 +3,10 @@ import ProductCard from "../ProductCard/ProductCard";
 import Product from "../../types/Product";
 
 type ProductListProps = {
-  products : Product[]
-}
+  products: Product[];
+};
 
-const ProductList = ({products} : ProductListProps) => {
+const ProductList = ({ products }: ProductListProps) => {
   return (
     <div className="product-list">
       {products.map((product) => (
@@ -16,6 +16,7 @@ const ProductList = ({products} : ProductListProps) => {
           brand={product.brand}
           score={product.rating}
           image={product.image}
+          description={product.description}
         />
       ))}
     </div>

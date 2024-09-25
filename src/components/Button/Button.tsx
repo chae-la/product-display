@@ -3,6 +3,7 @@ import "./Button.scss"
 type ButtonProps = {
     label: string;
     variant : "primary" | "secondary";
+    
 }
 
 const Button = ({label, variant = "primary"} : ButtonProps) => {

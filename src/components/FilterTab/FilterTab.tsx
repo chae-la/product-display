@@ -112,10 +112,10 @@ const FilterTab = ({ handleChange }: FilterTabProps) => {
                 handleChange={() => handleChange("Skin1004")}
               />
               <RadioButton
-                label="Dr. Althea"
-                value="Dr. Althea"
+                label="Dr Althea"
+                value="Dr Althea"
                 groupName="brand"
-                handleChange={() => handleChange("Dr. Althea")}
+                handleChange={() => handleChange("Dr Althea")}
               />
               <RadioButton
                 label="CosRx"
