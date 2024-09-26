@@ -3,7 +3,7 @@ import Product from "../types/Product";
 const products: Product[] = [
   {
     productId: 1,
-    productType: "Water Cleanser",
+    productType: "Water Based Cleansers",
     productName: "6.5 Foaming Cleanser",
     brand: "Etude House",
     rating: 9,
@@ -15,7 +15,7 @@ const products: Product[] = [
   },
   {
     productId: 2,
-    productType: "Oil Cleanser",
+    productType: "Oil Based Cleansers",
     productName: "Madagascar Centella light Oil Cleanser",
     brand: "Skin1004",
     rating: 8,
@@ -27,7 +27,7 @@ const products: Product[] = [
   },
   {
     productId: 3,
-    productType: "Oil Cleanser",
+    productType: "Oil Based Cleansers",
     productName: "Pure Grinding Cleansing Balm",
     brand: "Dr Althea",
     rating: 0,
@@ -251,7 +251,7 @@ const products: Product[] = [
   },
   {
     productId: 22,
-    productType: "Oil Cleanser",
+    productType: "Oil Based Cleansers",
     productName: "Radiance Cleansing Balm",
     brand: "Beauty of Joseon",
     rating: 7,
@@ -338,7 +338,7 @@ const products: Product[] = [
   },
   {
     productId: 29,
-    productType: "Water Cleanser",
+    productType: "Water Based Cleansers",
     productName: "All Clean Green Foam",
     brand: "Heimish",
     rating: 6,
@@ -350,7 +350,7 @@ const products: Product[] = [
   },
   {
     productId: 30,
-    productType: "Oil Cleanser",
+    productType: "Oil Based Cleansers",
     productName: "Softymo Cleansing Oil",
     brand: "Kose",
     rating: 8,
@@ -419,7 +419,7 @@ const products: Product[] = [
   },
   {
     productId: 36,
-    productType: "Water Cleanser",
+    productType: "Water Based Cleansers",
     productName: "Hydrating Cleanser for Normal to Dry Skin",
     brand: "CeraVe",
     rating: 6,
@@ -431,7 +431,7 @@ const products: Product[] = [
   },
   {
     productId: 37,
-    productType: "Water Cleanser",
+    productType: "Water Based Cleansers",
     productName: "Hydrating Cream To Foam Cleanser",
     brand: "CeraVe",
     rating: 8,

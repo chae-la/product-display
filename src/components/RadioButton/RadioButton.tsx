@@ -6,6 +6,7 @@ type RadioButtonProps = {
   value: any;
   groupName: string;
   handleChange: ChangeEventHandler<HTMLInputElement>;
+  checked: boolean;
 };
 
 const RadioButton = ({
@@ -13,6 +14,7 @@ const RadioButton = ({
   value,
   groupName,
   handleChange,
+  checked
 }: RadioButtonProps) => {
   return (
     <div className="radio-button">
@@ -23,6 +25,7 @@ const RadioButton = ({
         id={value}
         name={groupName}
         value={value}
+        checked={checked}
       />
       <label className="radio-button-label" htmlFor={label}>
         {label}
