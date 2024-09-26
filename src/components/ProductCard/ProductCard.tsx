@@ -46,7 +46,7 @@ const ProductCard = ({
         .map((sentence, index) => <p key={index}>{`${sentence}.`}</p>)
         .slice(0, -1)}
       <Link to={`/skincare/${productId}`} className="product-card__even-more">
-        <Button label="Even More!" variant="primary" />
+        <Button label="Review" variant="primary" />
       </Link>
     </>
   );
@@ -56,7 +56,9 @@ const ProductCard = ({
 
   return (
     <div className="product-card">
-      <img src={image} alt={product} className="product-card__image" />
+      <Link to={`/skincare/${productId}`}>
+        <img src={image} alt={product} className="product-card__image" />
+      </Link>
       <div className={contentClassName}>
         <h4 className="product-card__info">
           {product} - {brand}

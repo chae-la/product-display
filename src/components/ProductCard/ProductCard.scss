@@ -11,6 +11,7 @@
   border-radius: 0.5rem;
   position: relative;
   margin-top: unset;
+  text-decoration: none;
   &__image {
     height: 10rem;
     margin-bottom: 1rem;
@@ -52,5 +53,9 @@
     top: 0;
     height: 1rem;
     left:0.3rem;
+  }
+  &__even-more{
+    display: flex;
+    justify-content: center;
   }
 }

@@ -37,7 +37,7 @@ const Carousel = ({ images, productIds }: CarouselProps) => {
       >
         <img src={leftArrow} alt="Left arrow" />
       </button>
-      <Link to={`/products/${productIds[counter]}`}>
+      <Link to={`/skincare/${productIds[counter]}`}>
         <img src={images[counter]} alt={`Product ${productIds[counter]}`} className="carousel__image" />
       </Link>
       <button

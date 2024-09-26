@@ -5,7 +5,8 @@ type Product = {
     brand : string ;
     rating : number ;
     image : string;
-    description: string
+    description: string;
+    review: string;
 };
 
 export default Product;
