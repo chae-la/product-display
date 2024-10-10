@@ -35,7 +35,7 @@ const ProductInfo = ({ products }: ProductInfoProps) => {
         <h3 className="product-info__container product-info__container--rating">
           Rating: {product.rating}/10
         </h3>
-        <p className="product-info__container product-info__container--review">{product.description}</p>
+        <p className="product-info__container product-info__container--review">{product.review}</p>
       </div>
     </div>
   );

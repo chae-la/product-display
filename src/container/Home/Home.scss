@@ -48,3 +48,59 @@
     }
   }
 }
+
+
+@media screen and (min-width:768px) {
+    .home{
+        padding: 2rem;
+        &__blob{
+            height: 180%;
+        }
+        &__heading{
+            font-size: 5rem;
+            width: 60%;
+            left:60%;
+            top:70%;
+        }
+        &__description{
+            margin: 15rem 0 6rem 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home{
+        &__blob{
+            height: 250%;
+        }
+
+        &__heading{
+            font-size: 8rem;
+            top:85%;
+            left: 55%;
+        }
+        &__description{
+            font-size: 2.4rem;
+            margin: 23rem 0 7rem 0;
+            padding:2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .home{
+        &__blob{
+            height:350%;
+        }
+        &__heading{
+            font-size: 9.5rem;
+            top: 120%;
+            left:60%;
+        }
+        &__description{
+            margin: 39rem 0 9rem 0;
+            font-size: 2.8rem;
+            padding: 3rem
+        }
+    }
+}
