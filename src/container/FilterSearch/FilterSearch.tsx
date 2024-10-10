@@ -46,16 +46,18 @@ const FilterSearch = ({ products }: FilterSearchProps) => {
 
   return (
     <div className="filter-search">
-      <SearchBox
-        name="Products"
-        searchTerm={searchTerm}
-        handleInput={handleInput}
-      />
+      <div className="filter-search__container">
+        <SearchBox
+          name="Products"
+          searchTerm={searchTerm}
+          handleInput={handleInput}
+        />
 
-      <FilterTab
-        handleChange={handleFilterChange}
-        selectedFilters={selectedFilters}
-      />
+        <FilterTab
+          handleChange={handleFilterChange}
+          selectedFilters={selectedFilters}
+        />
+      </div>
 
       {filteredProducts.length > 0 ? (
         <ProductList products={filteredProducts} />
