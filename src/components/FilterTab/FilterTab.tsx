@@ -23,7 +23,7 @@ const FilterTab = ({ handleChange, selectedFilters }: FilterTabProps) => {
   const brands = [
     "Etude House", "Skin1004", "Dr Althea", "CosRx", "Anua", "Avene", "Epiduo", 
     "Numbuzin", "Paula's Choice", "Peach Slices", "I'm From", "Coxir", "Some By Mi", 
-    "Haruharu Wonder", "Purito", "Biore", "Canmake", "Shiseido", "Beauty Of Joseon", 
+    "Haruharu Wonder", "Purito", "Kao", "Canmake", "Shiseido", "Beauty Of Joseon", 
     "B.Lab", "Heimish", "Kose", "Pyunkang Yul", "Medicube", "Aromatica", 
     "Rohto Mentholatum", "CeraVe", "E45", "Versed"
   ];

@@ -20,14 +20,14 @@ const RadioButton = ({
     <div className="radio-button">
       <input
         onChange={handleChange}
-        className="radio-button-input"
+        className="radio-button__input"
         type="checkbox"
         id={value}
         name={groupName}
         value={value}
         checked={checked}
       />
-      <label className="radio-button-label" htmlFor={label}>
+      <label className="radio-button__label" htmlFor={value}>
         {label}
       </label>
     </div>

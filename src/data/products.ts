@@ -253,7 +253,7 @@ const products: Product[] = [
     productId: 22,
     productType: "Oil Based Cleansers",
     productName: "Radiance Cleansing Balm",
-    brand: "Beauty of Joseon",
+    brand: "Beauty Of Joseon",
     rating: 7,
     description:"This renewed version of Radiance Cleansing Balm presents an upgraded formula that thoroughly removes all traces of makeup and impurities. Its rice bran water and grain extract replenish skin with moisture to prevent dryness.",
     image:
@@ -303,7 +303,7 @@ const products: Product[] = [
     productId: 26,
     productType: "Serum",
     productName: "Glow Serum",
-    brand: "Beauty of Joseon",
+    brand: "Beauty Of Joseon",
     rating: 7.5,
     description:"Power up lackluster skin with this potent serum infused with 60% propolis and 2% niacinamide to fight inflammation, control sebum production and treat hyperpigmentation while keeping moisture levels high. The rich, honey-like texture absorbs swiftly into skin without leaving a sticky after-feel. Formulated using only EWG-certified ingredients, this serum is suitable for sensitive skin.",
     image:
@@ -316,7 +316,7 @@ const products: Product[] = [
     productId: 27,
     productType: "Sunscreen",
     productName: "Matte Sun Stick",
-    brand: "Beauty of Joseon",
+    brand: "Beauty Of Joseon",
     rating: 7.9,
     description:"Those who prefer to use sun protection in a fuss-free sun stick format will love this version from Beauty of Joseon fitted with SPF50 PA++++. The chemical formula doesn’t leave a greasy or clumpy finish. Containing silica powder, the sun stick absorbs excess sebum for a long-lasting matte finish. Additional natural ingredients of mugwort, cica and green tea extracts moisturize, nourish and soothe skin.",
     image:
@@ -328,7 +328,7 @@ const products: Product[] = [
     productId: 28,
     productType: "Sunscreen",
     productName: "Relief Sun",
-    brand: "Beauty of Joseon",
+    brand: "Beauty Of Joseon",
     rating: 8,
     description:"Fitted with broad-spectrum SPF 50+ PA++++ to fend off UVA and UVB rays, this organic sunscreen comes in a lightweight cream texture that absorbs quickly into skin without leaving a white cast. The chemical sunscreen contains niacinamide to leave your skin glowing. Additional ingredients of rice extract and grain-derived probiotics help keep skin supple and hydrated. Formulated without oxybenzone, octinoxate and animal-derived ingredients, the Relief Sun is suitable for sensitive skin.",
     image:
