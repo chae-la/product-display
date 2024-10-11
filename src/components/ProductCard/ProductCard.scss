@@ -59,3 +59,27 @@
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .product-card{
+    width: 75%;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .product-card{
+    height: 25rem;
+    &__image{
+      height: 13.3rem; 
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .product-card{
+    &__image{
+      height:12rem;
+    }
+  }
+}
