@@ -39,7 +39,7 @@ const products: Product[] = [
     productId: 4,
     productType: "Toner",
     productName: "Full fit propolis Synergy Toner",
-    brand: "CosRX",
+    brand: "CosRx",
     rating: 10,
     description:"Powered by 72% black propolis extract, this toner offers anti-inflammatory and anti-bacterial effects while boasting healing properties. Its quick-absorbent texture leaves a supple, refreshing and dewy finish.",
     image:
@@ -290,7 +290,7 @@ const products: Product[] = [
     productId: 25,
     productType: "Essence",
     productName: "Advanced Snail 96 Mucin Power Essence",
-    brand: "CosRX",
+    brand: "CosRx",
     rating: 7.7,
     description:"Containing as much as 96% snail secretion filtrate, the advanced snail mucin essence from Korean beauty favorite COSRX adds intense moisture to hydrate skin while helping to repair damaged skin, reduce redness, and improve skin texture and pigmentation. A popular ingredient in any Korean skin care routine, snail slime is known to benefit aging skin and soften the appearance of fine lines. Its moisturizing and healing properties also make it great to use in combination with retinol or Vitamin C serums. Other key ingredients in this COSRX snail essence include sodium hyaluronate, allantoin, panthenol and arginine, which provide additional hydrating and elasticity-enhancing effects. Suitable for various skin types, including normal skin, oily skin and sensitive skin.",
     image:

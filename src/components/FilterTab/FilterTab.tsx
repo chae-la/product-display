@@ -52,7 +52,7 @@ const FilterTab = ({ handleChange, selectedFilters }: FilterTabProps) => {
             </div>
             <div className="filter-options__brand">
               <h4 className="filter-options__brand--heading">Brand</h4>
-              {brands.map((brand) => (
+              {brands.sort((a, b) => a.localeCompare(b)).map((brand) => (
                 <RadioButton
                   key={brand}
                   label={brand}
