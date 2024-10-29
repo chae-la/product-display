@@ -11,6 +11,7 @@ type ProductCardProps = {
   score: number;
   description: string;
   productId: number;
+  classname ?:string;
 };
 
 const ProductCard = ({

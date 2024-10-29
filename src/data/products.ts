@@ -391,7 +391,7 @@ const products: Product[] = [
     rating: 0,
     description:"Achieve blemish-free skin with these toner pads formulated with AHA and BHA to gently slough away dead skin cells and purify pores for a smooth finish. Chock-full of plant extracts and natural oils, the formula offers gentle exfoliation while keeping skin moisturized and soothed.",
     image:
-      "https://www.skincupid.co.uk/cdn/shop/files/MEDICUBEZeroPorePads2.0_70Pads_5.png?v=1720630529",
+      "https://media.karousell.com/media/photos/products/2024/5/18/medicube_pad_toner_to_letgo_1716030541_395d5e45.jpg",
     review: "REVIEW COMING",
   },
   {
