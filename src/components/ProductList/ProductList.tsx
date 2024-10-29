@@ -3,6 +3,7 @@ import ProductCard from "../ProductCard/ProductCard";
 import Product from "../../types/Product";
 import { motion } from "framer-motion";
 import "./ProductList.scss";
+// import PaginatedProductList from "../../container/PaginatedProductList/PaginatedProductList";
 
 type ProductListProps = {
   products: Product[];
@@ -10,7 +11,6 @@ type ProductListProps = {
 
 const ProductList = ({ products }: ProductListProps) => {
   const [visibleIds, setVisibleIds] = useState<number[]>([]);
-
   const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
@@ -18,7 +18,6 @@ const ProductList = ({ products }: ProductListProps) => {
       (entries) => {
         entries.forEach((entry) => {
           const productId = Number(entry.target.getAttribute("data-id"));
-
           if (entry.isIntersecting) {
             setVisibleIds((prev) => [...prev, productId]);
           } else {
@@ -41,7 +40,7 @@ const ProductList = ({ products }: ProductListProps) => {
         if (ref) observer.unobserve(ref);
       });
     };
-  }, []);
+  }, [products]); 
 
   return (
     <div className="product-list">
@@ -72,6 +71,7 @@ const ProductList = ({ products }: ProductListProps) => {
           </motion.div>
         );
       })}
+    
     </div>
   );
 };

@@ -2,8 +2,9 @@ import { useState } from "react";
 import Product from "../../types/Product";
 import "./FilterSearch.scss";
 import SearchBox from "../../components/SearchBox/SearchBox";
-import ProductList from "../../components/ProductList/ProductList";
+// import ProductList from "../../components/ProductList/ProductList";
 import FilterTab from "../../components/FilterTab/FilterTab";
+import Pagination from "../Pagination/Pagination";
 
 type FilterSearchProps = {
   products: Product[];
@@ -59,12 +60,15 @@ const FilterSearch = ({ products }: FilterSearchProps) => {
         />
       </div>
 
+<div className="filter-search__pagination">
       {filteredProducts.length > 0 ? (
-        <ProductList products={filteredProducts} />
+        <Pagination />
       ) : (
         <p>No products found matching your criteria.</p>
       )}
     </div>
+
+</div>
   );
 };
 
