@@ -2,7 +2,6 @@ import { useState } from "react";
 import Product from "../../types/Product";
 import "./FilterSearch.scss";
 import SearchBox from "../../components/SearchBox/SearchBox";
-// import ProductList from "../../components/ProductList/ProductList";
 import FilterTab from "../../components/FilterTab/FilterTab";
 import Pagination from "../Pagination/Pagination";
 

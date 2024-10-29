@@ -3,7 +3,6 @@ import ProductCard from "../ProductCard/ProductCard";
 import Product from "../../types/Product";
 import { motion } from "framer-motion";
 import "./ProductList.scss";
-// import PaginatedProductList from "../../container/PaginatedProductList/PaginatedProductList";
 
 type ProductListProps = {
   products: Product[];
